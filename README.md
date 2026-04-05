@@ -58,37 +58,14 @@ Example:
 
 ---
 
-## 🎬 Animations
-
-* List animations using `.animation()`
-* Smooth transitions when data loads
-
----
-
-## 📸 Screenshots
-
-(Add screenshots here before submission)
-
----
-
-## 🚀 How to Run
-
-1. Open project in Xcode
-2. Select iPhone simulator
-3. Run the app ▶️
-
----
-
-## 📦 Repository
-
-GitHub Link: (Paste your repo link here)
+🎬 Animations
+.animation(.easeInOut) used for smooth transitions
+UI updates dynamically when data changes
 
 ---
 
 ## 👨‍🎓 Author
-
-* 
----
+Isharat Jahan
 
 ## 🎉 Conclusion
 
