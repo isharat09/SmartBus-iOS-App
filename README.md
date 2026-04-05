@@ -1,66 +1,95 @@
-# SmartBus-iOS-App
-Real-time bus tracking iOS application built using Swift and Xcode.
-# SmartBus – Real-Time Bus Tracking iOS App
+# 📚 StudyBuddy iOS App
 
-## Project Overview
-SmartBus is an iOS application that provides real-time bus arrival updates and route information. The application helps users check nearby bus stops and see upcoming bus schedules.
+## 👨‍💻 Project Overview
 
-This project is developed as part of the **iOS Application Development course**.
+StudyBuddy is an iOS application designed to help students organize and manage their study subjects efficiently. Users can view subjects, explore details, and manage their study planning in a clean and user-friendly interface.
 
 ---
 
-## Features
-- View nearby bus stops using location services
-- Check real-time bus arrival updates
-- View bus route details
-- Save favorite bus stops
-- Refresh bus schedule updates
-- Simple and user-friendly interface
+## 🎯 Features
 
----
-## Planned Application Screens
-
-1. Home Screen – search and access bus stops  
-2. Nearby Stops Screen – display stops near the user  
-3. Bus Arrival Screen – show upcoming bus arrival times  
-4. Route Details Screen – display bus route information  
-5. Favorite Stops Screen – quick access to saved stops
-
- ---  
-## Technologies Used
-- Swift
-- Xcode
-- UIKit
-- Core Location
-- JSON / API Data
+* 📖 View list of subjects
+* 🧠 Subject details screen
+* 🖼️ Custom icons for each subject
+* 💾 Local database using **SwiftData**
+* 🎨 Smooth animations for better UI experience
+* 📱 Clean and modern UI (SwiftUI)
 
 ---
 
-## Project Structure
+## 🛠️ Technologies Used
 
-SmartBus-iOS-App
-│
-├── README.md
-├── LICENSE
-├── ProjectProposal.pdf
-├── docs/
-├── screenshots/
-└── SmartBusApp (Xcode project)
+* Swift
+* SwiftUI
+* SwiftData (Local Database)
+* Xcode
 
 ---
 
-## Author
-Isharat Jahan  
-Okanagan College
+## 🧱 Project Structure
+
+### Models
+
+* `Subject.swift`
+  Represents each subject with:
+
+  * name
+  * description
+  * image
+
+### Views (Minimum 4)
+
+* `ContentView` → Main screen (list of subjects)
+* `SubjectCellView` → Each row UI
+* `SubjectDetailView` → Detail screen
+* `StudyBuddyApp` → Entry point
 
 ---
 
-## Course Information
+## 💾 Database
 
-Course: iOS Application Development  
-Semester: Winter 2026  
+This app uses **SwiftData** as a local database to store and retrieve subject data.
+
+Example:
+
+```swift
+@Query var subjects: [Subject]
+```
 
 ---
 
-## License
-This project is licensed under the MIT License.
+## 🎬 Animations
+
+* List animations using `.animation()`
+* Smooth transitions when data loads
+
+---
+
+## 📸 Screenshots
+
+(Add screenshots here before submission)
+
+---
+
+## 🚀 How to Run
+
+1. Open project in Xcode
+2. Select iPhone simulator
+3. Run the app ▶️
+
+---
+
+## 📦 Repository
+
+GitHub Link: (Paste your repo link here)
+
+---
+
+## 👨‍🎓 Author
+
+* 
+---
+
+## 🎉 Conclusion
+
+StudyBuddy is a simple yet powerful app to help students manage their studies effectively with a clean interface and smooth experience.
